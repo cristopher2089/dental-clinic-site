@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dental Clinic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="scroll-animation.css" />
+  <script src="https://use.fontawesome.com/de365867ae.js"></script> <!--font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#welcome">About</a>
+  <a href="#services">Services</a>
+  <a href="#appointment">Book An Appointment</a>
+  <a href="#contact-us">Contact Us</a>
+</div>
+
+<div id="mobile-button">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i> &nbsp;<a class="navbar-brand" href="#"><img src="images/dental-logo.png"></a></span>
+</div>
+
+
+
+
+<nav class="navbar navbar-expand-md bg-light navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/dental-logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#welcome">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#appointment">Book An Appointment</a>
+      </li> 
+	  <li class="nav-item">
+        <a class="nav-link" href="#contact-us">Contact Us</a>
+      </li>	  
+    </ul>
+  </div>  
+</nav>
+
+
+<!--Banner-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="intro" data-san="slideRight">
+					<h1>The Modern Dentistry You've Been Missing</h1>
+					<h6>We are committed to helping you look, feel and smile at your best</h6><br>
+					<a href="#welcome"><button type="button" class="btn" id="learn-more-btn">Learn More</button></a>
+				</div>
+			
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+  </div>
+</div>
+
+
+<!--Welcome-->
+<div id="welcome">
+	<div class="container">
+		<h6 id="who">Who We Are</h6>
+		<h1 id="welcome-intro">Welcome!</h1>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-5" id="text-container" data-san="slideRight">
+				<div id="welcome-text">
+					<h4>We use advanced proven technology to keep your smile looking the best!</h4><br>
+					<p>We are passionate about smiles and having the latest technology is one step we can take to help save yours!</p>
+				
+				</div>
+			
+			</div>
+			<div class="col-md-5" id="img-container" data-san="slideLeft">
+				<img src="images/restoration.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-1"></div>
+		
+		
+		</div>
+	
+	</div>
+</div>
+
+
+
+<!--Services-->
+<div id="services">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" id="services-text">
+				<h6>What We Do</h6>
+				<h1>Our Services</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3" data-san="slideLeft">
+				<div id="card" >
+					<h5>Cavity Protection</h5>
+					<p>Will help you strengthen teeth and leave your mouth feeling fresh.</p>
+				</div>
+			</div>
+			<div class="col-md-3" data-san="slideRight">
+				<div id="card" >
+					<h5>Implant Dentistry</h5>
+					<p>Dental implants are the closest you can get to healthy, natural teeth.</p>
+				</div>
+			</div>
+			<div class="col-md-3" data-san="slideLeft">
+				<div id="card" >
+					<h5>Cosmetic Dentistry</h5>
+					<p>Cosmetic Dentistry improve the appearance of an individual’s teeth.</p>
+				</div>
+			</div>
+			<div class="col-md-3" data-san="slideRight">
+				<div id="card" >
+					<h5>Paradontosis</h5>
+					<p>Timely treated parodontosis disease can save you from tooth loss.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="margin-top:1%;">
+			<div class="col-md-3" data-san="slideLeft">
+				<div id="card">
+					<h5>Dental Radiography</h5>
+					<p>Dental X-rays are a useful tool that help to diagnose and plan treatments.</p>
+				</div>
+			</div>
+			<div class="col-md-3" data-san="slideRight">
+				<div id="card">
+					<h5>Tooth Restorations</h5>
+					<p>We can replace missing teeth or repair missing parts of the tooth structure.</p>
+				</div>
+			</div>
+			<div class="col-md-3"  data-san="slideLeft">
+				<div id="card">
+					<h5>Sedation Dentistry</h5>
+					<p>We can use medication to help patients relax during dental procedures.</p>
+				</div>
+			</div>
+			<div class="col-md-3" data-san="slideRight">
+				<div id="card" >
+					<h5>Crowns & Bridges</h5>
+					<p>We’ll design, produce and insert ceramic structure all in one single appointment.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--Appointment-->
+<div id="appointment">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6">
+				<div id="appointment-desc" data-san="slideTop">
+					<h1>Have You Already Decided On What To Do?</h1>
+					<p>Our goal is to provide our patients with the best possible dental care in an environment of comfort and compassion.</p><br>
+					<button type="button" class="btn" id="appointment-btn">Book An Appointment</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--Contact us-->
+<div id="contact-us">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="get-in-touch">
+					<h4>Get In Touch With Us</h4>
+					<p>For any questions or inquiries, send us an email and we'll get back to you as soon as possible</p>
+				</div>
+				<form action="/action_page.php">
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Your Message:</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					 </div>
+					<button type="submit" class="btn btn-primary" id="btn-submit">Submit</button>
+				</form>
+			</div>
+			
+			<div class="col-md-6">
+				<div id="maps">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61762.590849213906!2d121.06964312572259!3d14.646747881781486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9a2777a00f9%3A0x6d36c8f429a12fc6!2sMarikina%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1622871447314!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--Journey-->
+<div id="start-journey">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" data-san="slideTop">
+				<div id="journey-text">
+					<h2>Start Your Journey With Us</h2><br>
+					<button type="submit" class="btn" id="btn-call">Call Us Now</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--footer-->
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div id="about">
+					<h4>ABOUT THE COMPANY</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h4>QUICK LINKS</h4>
+				<div id="footer-menu">
+					<p>About</p>
+					<p>Services</p>
+					<p>Book An Appointment</p>
+					<p>Contact Us</p>
+					
+				</div>
+				
+			</div>
+			<div class="col-md-4">
+				<h4>OTHER INFORMATION</h4>
+				<div id="other-info">
+					<p><u>Address:</u>&nbsp;Unit 2089 CT Suites JP Rizal St., Concepcion Uno, Marikina City</p>
+					<p><u>Contact Number</u>&nbsp;07-9876543/09871234567</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="social-media">
+				<ul>
+					<li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+					<li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+					<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--copyright-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12" id="copyright">
+			<p>2021.DentalClinic.com.All Rights Reserved</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<script src="scroll-animation.js"></script>
+</body>
+</html>

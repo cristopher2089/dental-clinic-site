@@ -1,0 +1,302 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+	overflow-x:hidden;
+	font-family:'Century Gothic';
+}
+#collapsibleNavbar ul li{
+	font-size:12px;
+	text-decoration:none;
+	font-weight:700;
+}
+/*Banner*/
+.jumbotron{
+  background-image: url(images/banner3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:15%;
+  padding-bottom:15%;
+}
+#intro h1{
+	font-weight:900;
+	color:#0D6097;
+	
+}
+#learn-more-btn{
+	font-size:13px;
+	background-color:#1EC8BC;
+	color:#ffffff;
+	border-radius:10px;
+}
+#learn-more-btn:hover{
+	background-color:#0DA19C;
+}
+
+/*Welcome*/
+#welcome{
+	width:100%;
+	padding-top:12%;
+	padding-bottom:17%;
+}
+#who{
+	text-align:center;
+	color:#0D6097;
+}
+#welcome-intro{
+	text-align:center;
+	font-weight:800;
+	color:#0D6097;
+	margin-bottom:5%;
+}
+#text-container{
+	padding-right:0;
+}
+#img-container{
+	padding-left:0;
+}
+#welcome-text{
+	padding:12%;
+	background-color:#D3F0EF;
+	margin-top:5%;
+}
+#welcome-text h4{
+	font-weight:300;
+	color:#0D6097;
+}
+#welcome-text p{
+	font-size:14px;
+}
+
+
+
+/*Services*/
+#services{
+  background-image: url(images/dental-chair.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+#services-text{
+	text-align:center;
+}
+#services-text h1{
+	color:#ffffff;
+	font-weight:800;
+}
+#services-text h6{
+	color:#ffffff;
+	
+}
+#card h5{
+	color:#0D6097;
+	font-weight:700;
+}
+#card p{
+	font-size:13px;
+}
+#card{
+  /*box-shadow: 0 4px 8px 0 rgb(255, 255, 255);*/
+  transition: 0.3s;
+  border-radius:0;
+  padding:10%;
+  text-align:center;
+  background-color:#ffffff;
+  margin-top:7px;
+  cursor:default;
+ 
+}
+#card:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+}
+
+
+
+/*Appointment*/
+#appointment{
+  padding-top:7%;
+  padding-bottom:7%;
+  background-image: url(images/dentist3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#appointment-desc{
+	text-align:center;
+}
+#appointment-desc h1{
+	font-weight:800;
+	color:#0D6097;
+}
+#appointment-btn{
+	font-size:13px;
+	background-color:#1EC8BC;
+	color:#ffffff;
+	border-radius:10px;
+}
+#appointment-btn:hover{
+	background-color:#0DA19C;
+}
+
+/*contact Us*/
+#contact-us{
+	width:100%;
+	padding-top:3%;
+	padding-bottom:3%;
+	background-color:#1EC8BC;
+	color:#ffffff;
+}
+#maps{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:100%;
+	padding-top:20%;
+}
+#maps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+#get-in-touch h4{
+	font-weight:600;
+	text-align:center;
+	
+}
+#get-in-touch p{
+	text-align:center;
+	font-size:12px;
+	
+}
+#btn-submit{
+	background-color:#ffffff;
+	color:#333;
+	border-radius:0;
+}
+#btn-submit:hover{
+	background-color:#333;
+	color:#ffffff;
+}
+
+/*Journey*/
+#start-journey{
+	width:100%;
+	padding-bottom:7%;
+	padding-top:7%;
+}
+#journey-text{
+	text-align:center;
+}
+#journey-text h2{
+	font-weight:700;
+	color:#0D6097;
+}
+#btn-call{
+	font-size:13px;
+	background-color:#1EC8BC;
+	color:#ffffff;
+	border-radius:10px;
+	border-color:1px solid #1EC8BC;
+}
+#btn-call:hover{
+	background-color:#0DA19C;
+}
+
+/*Footer*/
+#footer{
+	width:100%;
+	padding-top:3%;
+	background-color:#1EC8BC;
+	color:#ffffff;
+}
+#about p{
+	font-size:10px;
+}
+#footer-menu, #other-info{
+	line-height:1;
+}
+#social-media{
+	
+	text-align:center;
+	
+}
+#social-media ul li{
+	display:inline-block;
+	padding-top:3%;
+	margin-left:7px;
+}
+#social-media ul .fa{
+	font-size:32px;
+}
+
+
+/*copyright*/
+#copyright{
+	text-align:center;
+	font-size:10px;
+	padding:1%;
+}
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#f8f9fa;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #333;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #333;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#mobile-button{
+	display:none;
+	padding:3%;
+	background-color:#f8f9fa;
+}
+
+@media screen and (max-width: 768px){
+	#mobile-button{
+		display:block;
+	}
+	.navbar{
+		display:none;
+	}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
